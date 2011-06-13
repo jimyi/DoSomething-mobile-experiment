@@ -11,12 +11,26 @@
 <div data-role="page">
 
     <div data-role="header">
-        <h1>Landing Page</h1>
+        <h1><span class="ds">DoSomething.org</span> Staples for Students</h1>
     </div><!-- /header -->
 
     <div data-role="content">
         <p>Overview of the project</p>
-		<p>PSA Video</p>
+
+		<div class="tile">
+		    <div>
+				<p>At vero eos et accusamus et iusto odio dignis ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+				<button type="submit" data-theme="a">Signup</button>
+			</div>
+			<div class="image_wrapper">
+				<img src="http://www.dosomething.org/sites/all/micro/sfs/logo-sfs.png" />
+			</div>
+		</div>
+
+		<p>
+			<h4>PSA Video</h4>
+			<iframe width="560" height="349" src="http://www.youtube.com/embed/pbdl98VmbSo" frameborder="0" allowfullscreen></iframe>
+		</p>
     </div><!-- /content -->
 
     <?php require_once('modules/footer.php') ?>

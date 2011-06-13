@@ -1,21 +1,7 @@
 
 <fieldset class="ui-grid-c">
-	<div class="ui-block-a"><button type="submit" data-theme="c">Cancel</button></div>
-	<div class="ui-block-b"><button type="submit" data-theme="b">Submit</button></div>
-	<div class="ui-block-c"><button type="submit" data-theme="c">Cancel</button></div>
-	<div class="ui-block-d"><button type="submit" data-theme="b">Submit</button></div>
+    <a href="signup_page.php" data-role="button" data-icon="plus" data-theme="c">SIGNUP</a>
+    <a href="report_back.php" data-role="button"  data-icon="back" data-iconpos="right" data-theme="b">REPORT BACK</a>
+    <a href="action_tips.php" data-role="button"  data-icon="info" data-theme="c">ACTION TIPS</a>
+    <a href="contest.php" ddata-role="button" data-icon="star" data-theme="b">CONTEST</a>
 </fieldset>
-
-
-<!--
-	<a href="signuppage.php" data-role="button" data-icon="plus">Sign Up</a>
-	<a href="actiontips.php" data-role="actiontips.php" data-icon="info">Action Tips</a>
-	<a href="contest.html" data-role="contest.html"data-icon="star">Contest</a>
-	<a href="reportback.php" data-role="reportback.php" data-icon="back" data-iconpos="right">Report back</a>
-
-
-    <div data-role="footer">
-        <h4>Copyright &copy; 2011</a></h4>
-    </div>
-
--->
