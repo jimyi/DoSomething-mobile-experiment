@@ -36,7 +36,7 @@ div.page_content {
 }
 
 div.section {
-
+  overflow: auto;
 }
 
 div.section .half {
@@ -48,6 +48,10 @@ div.image_wrapper {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+div.iframe_wrapper {
+  clear: both;
 }
 
 div.footer_wrapper {
@@ -62,6 +66,7 @@ div.footer_wrapper a.full_link {
   display: block;
   padding: 12px 4px;
   text-decoration: none;
+  color: #333;
 }
 
 div.footer_wrapper a.full_link span.unicode_symbol {
