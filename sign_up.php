@@ -23,7 +23,7 @@
         </div><!-- /header -->
 
         <div data-role="content">
-            <form action="signup_action.php" method="post">
+            <form action="sign_up_action.php" method="post">
                 <div data-role="fieldcontain" >
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" />
