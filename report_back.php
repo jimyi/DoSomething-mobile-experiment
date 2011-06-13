@@ -69,7 +69,7 @@
              		<div data-role="fieldcontain">
         				<label for="name">Upload Photos </label>
         	            <input type="file" name="photos" id="photos" value=""  />
-                    </div>             
+                    </div>
                     <input type="submit" value="Submit Info"/>
                 <?php else: ?>
                     <?php if ($_POST[intsupplies]=='' or $_POST[intpeople]==''): ?>
@@ -83,7 +83,7 @@
                         </div>
                     <?php else: ?>
                         <?php // TODO: AHH SQL INJECTION!! ?>
-                        <?php //mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
+                        <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
                     <?php endif; ?>
                     <div data-role="fieldcontain">
                         <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>    

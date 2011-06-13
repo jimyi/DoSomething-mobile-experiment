@@ -1,3 +1,4 @@
+<?php require_once("common.php"); ?>
 <html>
     <head>
     <title>jQuery Mobile Tutorial </title>
@@ -6,22 +7,18 @@
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
-<?php
-require_once("conn.php");
-?>
 <!-- Start of first page -->
 <div data-role="page" id="first">
     <div data-role="header">
-	<a href="signuppage.php" data-role="button" data-icon="back">Back</a>
-        <h1>Sign Up Page</h1>
+        <h1>Sign Up</h1>
     </div><!-- /header -->
 
 	<div data-role="content">
 
-	<?
-	mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])");
+	<?php // AHH MYSQL INJECTION ?>
+	<?php //mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])"); ?>
 
-	echo "You have been signed up"; ?>
+	You have been signed up!
 	</div><!-- /content -->
 
     <?php require_once('modules/footer.php') ?>
