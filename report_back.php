@@ -1,4 +1,4 @@
-<?php require_once('conn.php'); ?>
+<?php require_once('common.php'); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,7 +83,7 @@
                         </div>
                     <?php else: ?>
                         <?php // TODO: AHH SQL INJECTION!! ?>
-                        <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
+                        <?php //mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
                     <?php endif; ?>
                     <div data-role="fieldcontain">
                         <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>    

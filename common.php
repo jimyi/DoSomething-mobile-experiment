@@ -1,8 +1,8 @@
 <?php
 
 // TODO: use mysqli_ or PDO
-
-$con = mysql_connect("localhost","root","ZanzibaR1");
+return;
+$con = mysql_connect("184.106.167.21","root","ZanzibaR1");
 if (!$con) {
     die('Could not connect: ' . mysql_error());
 }
