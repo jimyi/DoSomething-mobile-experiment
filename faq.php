@@ -6,7 +6,7 @@
     <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
-<body> 
+<body>
 
 <div data-role="page">
 
@@ -15,12 +15,10 @@
     </div><!-- /header -->
 
     <div data-role="content">
-        <p>You have been signed up</p>
+        <p>The content</p>
     </div><!-- /content -->
 
-    <div data-role="footer">
-        <h4>The Footer</h4>
-    </div><!-- /header -->
+    <?php require_once('modules/footer.php') ?>
 </div><!-- /page -->
 
 </body>

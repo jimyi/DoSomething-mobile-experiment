@@ -8,17 +8,17 @@
     <!--
     <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
     <script>
-        $(document).ready(function(){            
+        $(document).ready(function(){
             $("#reportbackForm").validate();
         });
     </script>
-    -->   
+    -->
     <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
 
     <script language="javascript">
 
     function verifyFields(form)
-    {        
+    {
         form=reportbackForm;
         if(form.intsupplies.value=='')
         {
@@ -27,7 +27,7 @@
             return false;
         }
         else if(form.intpeople.value=='')
-        {    
+        {
             alert("Enter the number of people involved");
             form.intpeople.select();
             return false;
@@ -45,7 +45,7 @@
 </head>
 
 <body>
- 
+
     <!-- Start of first page -->
     <div data-role="page" id="first">
 
@@ -63,16 +63,16 @@
          		<div data-role="fieldcontain">
              		<label for="name">How many people were involved? *</label>
              		<input type="number" name="intpeople" id="intpeople" value="" />
-            	</div>        
+            	</div>
          		<div data-role="fieldcontain">
     				<label for="name">How did you make your school supply drive awesome?</label>
     				<input type="text" name="drivedetails" id="drivedetails" value=""  />
-    	        </div>        
+    	        </div>
          		<div data-role="fieldcontain">
     				<label for="name">Upload Photos </label>
     	            <input type="file" name="photos" id="photos" value=""  />
-                </div>             
-    
+                </div>
+
                 <input type="submit" value="Submit Info"/>
             <?php else: ?>
                 <?php if ($_POST[intsupplies]=='' or $_POST[intpeople]==''): ?>
@@ -80,25 +80,23 @@
                     <p>Please enter the required information</p>
                     <p>Click <a href='#reportback.php'>here</a> to go back</p>
                     <?
-                    //    echo "Please enter the required information ";            
-                    //    echo "Click <a href='reportback.php'>here</a> to go back";                    
+                    //    echo "Please enter the required information ";
+                    //    echo "Click <a href='reportback.php'>here</a> to go back";
                     ?>
                     </div>
                 <?php else: ?>
-                    <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
+                    <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>
                 <?php endif; ?>
                 <div data-role="fieldcontain">
-                    <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>    
+                    <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>
                 </div>
-            <?php endif; ?>    
+            <?php endif; ?>
 
         </form>
-    
+
     </div><!-- /content -->
 
-    <div data-role="footer">
-        <h4>Copyright &copy; 2011</a></h4>
-    </div><!-- /footer -->
+    <?php require_once('modules/footer.php') ?>
 </div><!-- /page -->
 
 </body>
