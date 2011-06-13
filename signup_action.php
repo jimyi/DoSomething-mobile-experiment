@@ -1,3 +1,4 @@
+<?php require_once("common.php"); ?>
 <html>
 <head>
     <title>jQuery Mobile Tutorial </title>
@@ -17,11 +18,10 @@ require_once("conn.php");
 		</div><!-- /header -->
 
 		<div data-role="content">
+			<?php // AHH MYSQL INJECTION ?>
+			<?php //mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])"); ?>
 
-		<?
-		mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])");
-
-		echo "You have been signed up"; ?>
+			You have been signed up!
 		</div><!-- /content -->
 
 		<?php require_once('modules/footer.php') ?>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>jQuery Mobile Tutorial </title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
     <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
-    <!--
-    <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
-    -->
+    <script src="scripts/jquery.h5validate.js"></script>
+    <script language="javascript">
+        $(document).ready(function (event) {
+        	event.preventDefault(); // Required because validation plugins do not play nicely with jQuery Mobile
+            $('form').h5Validate();
+        });
+    </script>
 </head>
 <body>
 
@@ -22,19 +26,19 @@
             <form action="signup_action.php" method="post">
                 <div data-role="fieldcontain" >
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" value=""  />
+                    <input type="text" name="name" id="name" />
                 </div>
                 <div data-role="fieldcontain">
                     <label for="name">School</label>
-                    <input type="text" name="school" id="school"     />
+                    <input type="text" name="school" id="school" />
                 </div>
                 <div data-role="fieldcontain">
                     <label for="name">Email</label>
-                    <input type="text" name="email" id="email" value="" required="required" placeholder="This field requires an e-mail address."  />
+                    <input type="text" name="email" id="email" required="required" placeholder="This field requires an e-mail address." />
                 </div>
                 <div data-role="fieldcontain">
                     <label for="name">Phone</label>
-                    <input type="text" name="phone" id="phone" value=""  />
+                    <input type="text" name="phone" id="phone" value="" />
                 </div>
                 <div data-role="fieldcontain">
                     <label for="name">Zip</label>
