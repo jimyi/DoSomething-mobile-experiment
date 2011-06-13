@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
     <title>jQuery Mobile Tutorial </title>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
     <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>The title</h1>
+            <a href="index.php" data-icon="home" data-iconpos="right" class="ui-btn-right"`>Home</a>
+        </div><!-- /header -->
 
-<div data-role="page">
+        <div data-role="content">
+            <p>You have been signed up</p>
+        </div><!-- /content -->
 
-    <div data-role="header">
-        <h1>The title</h1>
-    </div><!-- /header -->
-
-    <div data-role="content">
-        <p>You have been signed up</p>
-    </div><!-- /content -->
-
-    <?php require_once('modules/footer.php') ?>
-</div><!-- /page -->
-
+        <?php require_once('modules/footer.php') ?>
+    </div><!-- /page -->
 </body>
 </html>

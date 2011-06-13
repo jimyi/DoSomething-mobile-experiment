@@ -12,11 +12,11 @@
 <body>
 
     <!-- Start of first page -->
-    <div data-role="page" id="first">
+    <div data-role="page">
 
-        <div data-role="header" data-nobackbtn="true">
+        <div data-role="header">
             <h1>Sign Up Page</h1>
-            <a href="index.html" data-role="button" data-icon="arrow-l">Home</a>
+            <a href="index.php" data-icon="home" data-iconpos="right" class="ui-btn-right"`>Home</a>
         </div><!-- /header -->
 
         <div data-role="content">
@@ -45,7 +45,7 @@
                 <input type="submit" value="Sign me up"/>
             </form>
         </div><!-- /content -->
-    
+
         <?php require_once('modules/footer.php') ?>
 
     </div><!-- /page -->

@@ -7,19 +7,16 @@
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>The title</h1>
+        </div><!-- /header -->
 
-<div data-role="page">
+        <div data-role="content">
+            <p>The content</p>
+        </div><!-- /content -->
 
-    <div data-role="header">
-        <h1>The title</h1>
-    </div><!-- /header -->
-
-    <div data-role="content">
-        <p>The content</p>
-    </div><!-- /content -->
-
-    <?php require_once('modules/footer.php') ?>
-</div><!-- /page -->
-
+        <?php require_once('modules/footer.php') ?>
+    </div><!-- /page -->
 </body>
 </html>
