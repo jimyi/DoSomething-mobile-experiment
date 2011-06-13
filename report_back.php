@@ -5,6 +5,7 @@
     <title>Report Back</title>
     <!--  TODO: host this ourself? -->
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+	<link rel="stylesheet" href="styles/common.css" />
     <!--
     <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
     <script>
@@ -84,7 +85,7 @@
                         </div>
                     <?php else: ?>
                         <?php // TODO: AHH SQL INJECTION!! ?>
-                        <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
+                        <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>
                     <?php endif; ?>
                     <div data-role="fieldcontain">
                         <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>
