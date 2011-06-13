@@ -49,3 +49,21 @@ div.image_wrapper {
   margin-right: auto;
   text-align: center;
 }
+
+div.footer_wrapper {
+  background-color: #bac000;
+}
+
+div.footer_wrapper .ui-footer{
+  padding: 8px 4px;
+}
+
+div.footer_wrapper a.full_link {
+  display: block;
+  padding: 12px 4px;
+  text-decoration: none;
+}
+
+div.footer_wrapper a.full_link span.unicode_symbol {
+
+}
