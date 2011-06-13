@@ -7,9 +7,11 @@
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
+
     <div data-role="page">
+
         <div data-role="header">
-            <h1>The title</h1>
+            <h1>FAQ</h1>
             <?php require_once('modules/header_home_button.php'); ?>
         </div><!-- /header -->
 
@@ -19,5 +21,6 @@
 
         <?php require_once('modules/footer.php') ?>
     </div><!-- /page -->
+
 </body>
 </html>
