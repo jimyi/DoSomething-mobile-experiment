@@ -9,22 +9,22 @@
 <?php
 require_once("conn.php");
 ?>
-<!-- Start of first page -->
-<div data-role="page" id="first">
-    <div data-role="header">
-	<a href="signuppage.php" data-role="button" data-icon="back">Back</a>
-        <h1>Sign Up Page</h1>
-    </div><!-- /header -->
+	<!-- Start of first page -->
+	<div data-role="page" id="first">
+		<div data-role="header">
+			<h1>Sign Up Page</h1>
+			<?php require_once('modules/header_home_button.php'); ?>
+		</div><!-- /header -->
 
-	<div data-role="content">
+		<div data-role="content">
 
-	<?
-	mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])");
+		<?
+		mysql_query("Insert into signup_staples values('','$_POST[name]','$_POST[school]','$_POST[email]','$_POST[phone]',$_POST[zip])");
 
-	echo "You have been signed up"; ?>
-	</div><!-- /content -->
+		echo "You have been signed up"; ?>
+		</div><!-- /content -->
 
-    <?php require_once('modules/footer.php') ?>
-</div><!-- /page -->
+		<?php require_once('modules/footer.php') ?>
+	</div><!-- /page -->
 </body>
 </html>

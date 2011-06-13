@@ -18,7 +18,7 @@
 			<div class="tile">
 				<div>
 					<p>At vero eos et accusamus et iusto odio dignis ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
-					<a href="signup.php" data-role="button" data-icon="plus" data-theme="c">SIGNUP</a>
+					<a href="sign_up.php" data-role="button" data-icon="plus" data-theme="c">SIGN UP!</a>
 				</div>
 				<div class="image_wrapper">
 					<img src="http://www.dosomething.org/sites/all/micro/sfs/logo-sfs.png" />

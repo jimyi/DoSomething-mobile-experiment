@@ -49,7 +49,7 @@
 
         <div data-role="header">
             <h1>Sign Up Page</h1>
-            <a href="index.php" data-icon="home" data-iconpos="right" class="ui-btn-right"`>Home</a>
+			<?php require_once('modules/header_home_button.php'); ?>
         </div><!-- /header -->
 
         <div data-role="content">
@@ -94,7 +94,6 @@
         </div><!-- /content -->
 
         <?php require_once('modules/footer.php'); ?>
-
     </div><!-- /page -->
 
 </body>

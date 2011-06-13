@@ -10,7 +10,7 @@
     <div data-role="page">
         <div data-role="header">
             <h1>The title</h1>
-            <a href="index.php" data-icon="home" data-iconpos="right" class="ui-btn-right"`>Home</a>
+            <?php require_once('modules/header_home_button.php'); ?>
         </div><!-- /header -->
 
         <div data-role="content">
