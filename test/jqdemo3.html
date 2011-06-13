@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>jQuery Mobile Tutorial </title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+</head>
+
+<body> 
+<!-- Start of first page -->
+<div data-role="page" id="first">
+
+    <div data-role="header">
+        <h1>First</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <p>The content</p>
+        <p>View internal page called <a href="#second">second</a></p>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of second page -->
+<div data-role="page" id="second">
+
+    <div data-role="header">
+        <h1>Second</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <p>I'm the second content</p>
+        <p><a href="#first">Back to first</a></p>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
