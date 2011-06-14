@@ -52,6 +52,7 @@ div.image_wrapper {
 
 div.iframe_wrapper {
   clear: both;
+  overflow: hidden;
 }
 
 div.footer_wrapper {
