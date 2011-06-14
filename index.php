@@ -20,7 +20,7 @@
 			<div class="iframe_wrapper">
 				<iframe width="4" height="3" src="http://www.youtube.com/embed/pbdl98VmbSo" frameborder="0" id="youtube_embed" allowfullscreen></iframe>
 				<script>
-					$(".page_content").live("pageshow, orientationchange", function (event) {
+					$(".page_content").live("pageshow orientationchange", function (event) {
 						var padding = 15 + 4; // Don't want video to be flush against the window edge.
 						var width = Math.min(512, $(window).width() - (2*padding));
 						var height = Math.ceil(width * .75);
