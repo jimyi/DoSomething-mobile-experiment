@@ -263,7 +263,9 @@ div#run_drive_banner img.banner {
 
 div#run_drive_banner img.overlay {
   position: relative;
-  top: -75px;
+  top: -38px;
+  width: 98px;
+  height: 75px;
 }
 
 #foursquare {
