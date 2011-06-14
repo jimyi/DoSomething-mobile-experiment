@@ -5,8 +5,8 @@
     <?php require_once('modules/scripts_styles.php'); ?>
 </head>
 <body>
-	<div data-role="page" class="page_content">
-		<div data-role="header">
+    <div data-role="page" class="page_content" data-theme="c">
+        <div data-role="header" data-theme="d">
 			<h1>Contest</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
 		</div><!-- /header -->
