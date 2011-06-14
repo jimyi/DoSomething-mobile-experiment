@@ -52,11 +52,13 @@ try {
 		</div><!-- /header -->
 
 		<div data-role="content">
-            <?php if ($success): ?>
-                You have been signed up!
-            <?php else: ?>
-                Error signing up!  Please try again.
-            <?php endif; ?>
+            <p>
+                <?php if ($success): ?>
+                    You have been signed up!
+                <?php else: ?>
+                    Error signing up!  Please try again.
+                <?php endif; ?>
+            </p>
 		</div><!-- /content -->
 
 		<?php require_once('modules/footer.php') ?>

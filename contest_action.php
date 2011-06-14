@@ -37,19 +37,19 @@ try {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Report Back</title>
+    <title>Contest</title>
     <?php require_once('modules/scripts_styles.php'); ?>
 </head>
 
 <body>
     <div data-role="page" class="page_content">
         <div data-role="header" data-backbtn="false">
-            <h1>Report Back</h1>
+            <h1>Contest</h1>
             <?php require_once('modules/header_home_button.php'); ?>
         </div><!-- /header -->
 
         <div data-role="content">
-            <p>Thanks for reporting your supplies. <a href="report_back.php">Report more.</a></p>
+            <p>Your entry to the contest has been submitted.</p>
             <?php // TODO: maybe do something else if $success == FALSE? ?>
         </div><!-- /content -->
 
