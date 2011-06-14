@@ -2,7 +2,7 @@
 
 // TODO: use mysqli_ or PDO
 
-$mysqlConnection = mysql_connect("184.106.167.21","root","ZanzibaR1");
+$mysqlConnection = mysql_connect("184.106.167.21","mobile","XpLhxvujNrJhjrVb");
 if (!$mysqlConnection) {
     die('Could not connect: ' . mysql_error());
 }
