@@ -7,10 +7,10 @@
     <script src="scripts/jquery.h5validate.js"></script>
     <script language="javascript">
         $(document).ready(function (event) {
-            $('form').h5Validate();
             $("form :submit").click(function(event) {
                 event.preventDefault();
                 $(this).closest("form").submit();
             });
+            $('form').h5Validate();
         });
     </script>
