@@ -6,7 +6,10 @@
     <script src="scripts/jquery.h5validate.js"></script>
     <script language="javascript">
         $(document).ready(function (event) {
-            event.preventDefault(); // Required because validation plugins do not play nicely with jQuery Mobile
             $('form').h5Validate();
+            $("form :submit").click(function(event) {
+                event.preventDefault();
+                $(this).closest("form").submit();
+            });
         });
     </script>

@@ -5,7 +5,7 @@
     <?php require_once('modules/scripts_styles.php'); ?>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" class="page">
 		<div class="page_content">
 			<div data-role="header" data-nobackbtn="true">
 				<h1><span class="ds">DoSomething.org</span> Staples for Students</h1>
@@ -25,7 +25,7 @@
 				<div class="iframe_wrapper">
 					<iframe width="4" height="3" src="http://www.youtube.com/embed/pbdl98VmbSo" frameborder="0" id="youtube_embed" allowfullscreen></iframe>
 					<script>
-						$(document).ready(function (event) {
+						$(".page").live("pageshow", function (event) {
 							var width = Math.min(512, $(window).width());
 							var height = Math.ceil(width * .75);
 							$("#youtube_embed, .iframe_wrapper").width(width);
