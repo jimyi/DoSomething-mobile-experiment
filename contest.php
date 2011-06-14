@@ -21,7 +21,6 @@
 				<label for="signup_email">Your Email</label>
 				<input type="text" name="signup_email" id="signup_email" required="required" value="" placeholder="Your Email Address" />
 			</div>
-            <hr />
             <div data-role="fieldcontain">
 				<label for="refer_email1">Friend's Email</label>
 				<input type="text" name="refer_email1" id="refer_email1" required="required" value="" placeholder="Friend's Email" />
