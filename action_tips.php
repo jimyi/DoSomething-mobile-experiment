@@ -7,13 +7,11 @@
 <body>
     <div data-role="page" class="page_content" data-theme="c">
         <div data-role="header" data-theme="d">
-			<h1>How to Run a Drive</h1>
+			<h1>Action Tips</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
 		</div><!-- /header -->
 
 		<div data-role="content">
-			<p>How to Action Guide</p>
-			<p>Text Opt-in</p>
 			<div class="image_wrapper" id="run_drive_banner">
 				<img src="http://www.dosomething.org/sites/all/micro/sfs/run_a_drive-banner.jpg" class="banner" />
 				<img src="http://www.dosomething.org/sites/all/micro/sfs/run_a_drive-sticky.png" class="overlay" />
