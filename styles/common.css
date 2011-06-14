@@ -265,3 +265,7 @@ div#run_drive_banner img.overlay {
   position: relative;
   top: -75px;
 }
+
+#foursquare {
+  margin-top: 12px;
+}
