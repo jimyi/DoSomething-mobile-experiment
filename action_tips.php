@@ -22,10 +22,10 @@
 			<ul id="tip_list">
 				<li>First things first: Do some research to find out what supplies are needed more in your local community.</li>
 				<li>Get EVERYONE on board: You don't want to do this alone so recruit all your friends, your teammates, people in your classes, etc to help you out. Pull the guilt trip if you have to - hey, it's for a good cause!</li>
-				<li>Get the "all clear": You don't want to get on anyone’s bad side, so first make sure that your principal, coach or teacher is okay with you running an awesome drive for charity.</li>
+				<li>Get the "all clear": You don't want to get on anyone's bad side, so first make sure that your principal, coach or teacher is okay with you running an awesome drive for charity.</li>
 				<li>Make it Easy: People are more likely to help if they don't have to do much work, so offer to pick up the school supplies at their house or set up a school supplies collection bin in the front of your school or in the lunchroom. Make sure everyone knows what supplies you're looking for. Check out our list of the 11 most-needed supplies.</li>
 				<li>Spread the word: Make posters and flyers and use your creative energy to decorate the drop-off boxes. You can even put it on t-shirts, pants, whatever! The more people know, the more school supplies you'll get.</li>
-				<li>Use your lungs: Ask if you can make an announcement over the PA system during morning announcements or use your big mouth during lunch. If school’s out, halftime of a basketball game or the 7th inning stretch during summer baseball are perfect times too!</li>
+				<li>Use your lungs: Ask if you can make an announcement over the PA system during morning announcements or use your big mouth during lunch. If school's out, halftime of a basketball game or the 7th inning stretch during summer baseball are perfect times too!</li>
 				<li>Document your drive: Take pics of all the school supplies you've collected and all the fun things you made for the drive. Upload your pics and you'll be featured on the StaplesForStudents.org website.</li>
 				<li>Use the web: Are you on Facebook (our money's on "yes!")? Twitter account? Or maybe YouTube? Spread the word far and wide by updating your status, sending messages to friends, creating a Staples for Students Facebook event or even making a sweet video.</li>
 				<li>Post your success: Officially end the drive by posting how many school supplies you collected and give special thanks to everyone who chipped in.</li>
