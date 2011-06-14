@@ -257,19 +257,26 @@ div.footer_wrapper a.full_link span.unicode_symbol {
 
 }
 
+div#run_drive_banner {
+  position: relative;
+}
+
 div#run_drive_banner img.banner {
   width: 100%;
 }
 
 div#run_drive_banner img.overlay {
-  position: relative;
-  top: -38px;
+  position: absolute;
+  bottom: -38px;
+  left: 16px;
   width: 98px;
   height: 75px;
 }
 
 ul#tip_list {
+  position: relative;
   margin: 0;
+  margin-top: 48px;
   padding: 0;
   list-style: none;
 }
@@ -277,7 +284,7 @@ ul#tip_list {
 ul#tip_list li {
   border-bottom: 1px dotted #999;
   margin-bottom: 8px;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
 }
 
 #foursquare {
