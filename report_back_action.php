@@ -18,10 +18,7 @@
 </head>
 
 <body>
-
-    <!-- Start of first page -->
-    <div data-role="page" id="first">
-
+    <div data-role="page" class="page_content">
         <div data-role="header">
             <h1>Sign Up Page</h1>
             <?php require_once('modules/header_home_button.php'); ?>
@@ -39,7 +36,7 @@
                 </div>
             <?php else: ?>
                 <?php // TODO: AHH SQL INJECTION!! ?>
-                <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>                        
+                <?php mysql_query("Insert into reportback_staples values('','$_POST[intsupplies]','$_POST[intpeople]','$_POST[drivedetails]')"); ?>
             <?php endif; ?>
             <div data-role="fieldcontain">
                 <label for="name">Thanks for reporting your supplies. <a href='reportback.php'>Report more</a></label>

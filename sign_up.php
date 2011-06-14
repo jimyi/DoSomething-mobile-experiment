@@ -15,9 +15,7 @@
     </script>
 </head>
 <body>
-
-    <!-- Start of first page -->
-    <div data-role="page">
+    <div data-role="page" class="page_content">
         <div data-role="header">
             <h1>Sign Up Page</h1>
             <?php require_once('modules/header_home_button.php'); ?>

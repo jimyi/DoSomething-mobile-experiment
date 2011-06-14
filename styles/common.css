@@ -27,6 +27,7 @@
 
 div.page_content {
   background-color: #f5b232;
+  background-image: none;
   /*
     Hey Nadir, here's the start and end values for that orange gradient:
       start: F8C037

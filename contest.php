@@ -8,7 +8,7 @@
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" class="page_content">
 		<div data-role="header">
 			<h1>Contest Page</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
@@ -16,9 +16,9 @@
 
 		<div data-role="content">
 		<h2>Tell 5 Friends</h2>
-		<p>We need your help building our Staples for Students team! Please list the email of 5 
+		<p>We need your help building our Staples for Students team! Please list the email of 5
 		friends who participated in this campaign with you. You'll be automatically entered to win one of our awesome campaign giveaways, like signed swag or t-shirts! </p>
-			
+
 		<form action="contest.php" method="post">
 			<div data-role="fieldcontain" >
 				<label for="name">Your Email Address</label>
@@ -44,7 +44,7 @@
 				<label for="email5">Your friends email</label>
 				<input type="text" name="refer_email5" id="refer_email5" value="" placeholder="Your friends email" />
 			</div>
-	
+
 		</div><!-- /content -->
 
 		<?php require_once('modules/footer.php') ?>

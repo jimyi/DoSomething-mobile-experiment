@@ -8,10 +8,7 @@
     <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
 </head>
 <body>
-
-	<!-- Start of first page -->
-	<div data-role="page" id="first">
-
+	<div data-role="page" class="page_content">
 		<div data-role="header">
 			<h1>Sign Up Page</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
