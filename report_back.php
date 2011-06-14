@@ -15,21 +15,21 @@
         </div><!-- /header -->
 
         <div data-role="content">
-    		<form id="reportbackForm" action="report_back_action.php">
+    		<form action="report_back_action.php" method="post">
             	<div data-role="fieldcontain">
                     <label for="name">How many supplies did you drop of? *</label>
-                    <input type="text" name="intsupplies" id="intsupplies" value="" />
+                    <input type="text" name="number_supplies" id="intsupplies" value="" />
             	</div>
          		<div data-role="fieldcontain">
              		<label for="name">How many people were involved? *</label>
-             		<input type="number" name="intpeople" id="intpeople" value="" />
+             		<input type="number" name="number_people" id="intpeople" value="" />
             	</div>
          		<div data-role="fieldcontain">
     				<label for="name">How did you make your school supply drive awesome?</label>
-    				<input type="text" name="drivedetails" id="drivedetails" value=""  />
+    				<input type="text" name="drive_details" id="drivedetails" value=""  />
     	        </div>
          		<div data-role="fieldcontain">
-    				<label for="name">Upload Photos </label>
+    				<label for="name">Upload Photo</label>
     	            <input type="file" name="photos" id="photos" value=""  />
                 </div>
                 <input type="submit" value="Submit Info"/>
