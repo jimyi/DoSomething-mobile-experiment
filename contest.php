@@ -10,7 +10,7 @@
 <body>
 	<div data-role="page">
 		<div data-role="header">
-			<h1>The title</h1>
+			<h1>Contest Page</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
 		</div><!-- /header -->
 
@@ -22,23 +22,27 @@
 		<form action="contest.php" method="post">
 			<div data-role="fieldcontain" >
 				<label for="name">Your Email Address</label>
-				<input type="text" name="name" id="name" />
+				<input type="text" name="signup_email" id="signup_email" required="required" value="" placeholder="Enter your email" />
 			</div>
             <div data-role="fieldcontain">
-				<label for="name">School</label>
-				<input type="text" name="school" id="school" />
+				<label for="email1">Your friends email</label>
+				<input type="text" name="refer_email1" id="refer_email1" required="required" value="" placeholder="Your friends email" />
 			</div>
 			<div data-role="fieldcontain">
-				<label for="name">Email</label>
-				<input type="text" name="email" id="email" required="required" placeholder="This field requires an e-mail address." />
+				<label for="email2">Your friends email</label>
+				<input type="text" name="refer_email2" id="refer_email2" value="" placeholder="Your friends email" />
 			</div>
 			<div data-role="fieldcontain">
-				<label for="name">Phone</label>
-				<input type="text" name="phone" id="phone" value="" />
+				<label for="email3">Your friends email</label>
+				<input type="text" name="refer_email3" id="refer_email3" value="" placeholder="Your friends email" />
 			</div>
 			<div data-role="fieldcontain">
-				<label for="name">Zip</label>
-				<input type="text" name="zip" id="zip" value="" size="5" required="required" placeholder="This field is required." />
+				<label for="email4">Your friends email</label>
+				<input type="text" name="refer_email4" id="refer_email4" value="" placeholder="Your friends email" />
+			</div>
+			<div data-role="fieldcontain">
+				<label for="email5">Your friends email</label>
+				<input type="text" name="refer_email5" id="refer_email5" value="" placeholder="Your friends email" />
 			</div>
 	
 		</div><!-- /content -->
