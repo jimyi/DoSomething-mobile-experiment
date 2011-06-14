@@ -3,7 +3,7 @@
 
 // Go through our form inputs and set defaults
 $input = array();
-$input['email'] = isset($_COOKIE['email']) ? $_COOKIE['email'] : '';
+$input['email'] = isset($_COOKIE['email']) ? base64_decode($_COOKIE['email']) : '';
 $input['supplies_count'] = isset($_POST['number_supplies']) ? $_POST['number_supplies'] : '';
 $input['people_count'] = isset($_POST['number_people']) ? $_POST['number_people'] : '';
 $input['drive_details'] = isset($_POST['drive_details']) ? $_POST['drive_details'] : '';

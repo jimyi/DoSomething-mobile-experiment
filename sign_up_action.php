@@ -30,6 +30,10 @@ foreach ($input as $column => $value) {
 try {
     $query->execute();
     $success = TRUE;
+
+    // Save this user's email address in a cookie so we know who it is when they report back.
+    // Cookie expires in 30 days
+    setcookie("email", base64_encode($input['email']), time() + 60 * 60 * 24 * 30);
 } catch (PDOException $e) {
     $success = FALSE;
 }
