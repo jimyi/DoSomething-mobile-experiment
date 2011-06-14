@@ -256,3 +256,12 @@ div.footer_wrapper a.full_link {
 div.footer_wrapper a.full_link span.unicode_symbol {
 
 }
+
+div#run_drive_banner img.banner {
+  width: 100%;
+}
+
+div#run_drive_banner img.overlay {
+  position: relative;
+  top: -75px;
+}
