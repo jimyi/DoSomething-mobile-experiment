@@ -25,7 +25,7 @@
 					</div>
 				</div>
 
-				<p>
+				<div class="iframe_wrapper">
 					<iframe width="4" height="3" src="http://www.youtube.com/embed/pbdl98VmbSo" frameborder="0" id="youtube_embed" allowfullscreen></iframe>
 					<script>
 						$(document).ready(function (event) {
@@ -36,7 +36,7 @@
 							embed.height(height);
 						});
 					</script>
-				</p>
+				</div>
 			</div><!-- /content -->
 			<?php require_once('modules/footer.php') ?>
 		</div>
