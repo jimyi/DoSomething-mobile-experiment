@@ -3,18 +3,7 @@
 <html>
 <head>
     <title>Report Back</title>
-    <!--  TODO: host this ourself? -->
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
-    <!--
-    <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#reportbackForm").validate();
-        });
-    </script>
-    -->
-    <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+    <?php require_once('modules/scripts_styles.php'); ?>
 </head>
 
 <body>
