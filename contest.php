@@ -7,7 +7,7 @@
 <body>
 	<div data-role="page" class="page_content">
 		<div data-role="header">
-			<h1>Contest Page</h1>
+			<h1>Contest</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
 		</div><!-- /header -->
 

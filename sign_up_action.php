@@ -42,8 +42,8 @@ try {
 </head>
 <body>
 	<div data-role="page" class="page_content">
-		<div data-role="header">
-			<h1>Sign Up Page</h1>
+		<div data-role="header" data-nobackbtn="true">
+			<h1>Sign Up</h1>
 			<?php require_once('modules/header_home_button.php'); ?>
 		</div><!-- /header -->
 
