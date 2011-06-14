@@ -30,10 +30,7 @@
 				</script>
 			</div>
 			<div class="section" id="foursquare">
-				<img src="http://www.dosomething.org/sites/all/micro/sfs/foursquare.png" />
-				<div class="header">
-					<a href="https://foursquare.com/search?q=staples"><span>Check in to a Staples store near by!</span></a>
-				</div>
+				<a href="https://foursquare.com/search?q=staples" target="_blank"><img src="images/foursquare_check_in.png" /></a>
 			</div>
 		</div><!-- /content -->
 		<?php require_once('modules/footer.php') ?>
