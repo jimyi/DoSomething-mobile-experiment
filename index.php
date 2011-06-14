@@ -28,9 +28,8 @@
 						$(document).ready(function (event) {
 							var width = Math.min(512, $(window).width());
 							var height = Math.ceil(width * .75);
-							var embed = $('#youtube_embed');
-							embed.width(width);
-							embed.height(height);
+							$("#youtube_embed, .iframe_wrapper").width(width);
+							$("#youtube_embed, .iframe_wrapper").height(height);
 						});
 					</script>
 				</div>
