@@ -7,7 +7,7 @@
 <body>
 
 	<div data-role="page" class="page_content">
-		<div data-role="header" data-nobackbtn="true">
+		<div data-role="header" data-backbtn="false">
 			<h1><span class="ds">DoSomething.org</span> Staples for Students</h1>
 		</div><!-- /header -->
 

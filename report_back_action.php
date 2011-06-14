@@ -43,7 +43,7 @@ try {
 
 <body>
     <div data-role="page" class="page_content">
-        <div data-role="header" data-nobackbtn="true">
+        <div data-role="header" data-backbtn="false">
             <h1>Report Back</h1>
             <?php require_once('modules/header_home_button.php'); ?>
         </div><!-- /header -->
