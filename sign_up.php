@@ -31,7 +31,7 @@
                 </div>
                 <div data-role="fieldcontain">
                     <label for="zip">Zip</label>
-                    <input type="text" name="zip" id="zip" value="" size="5" required="required" placeholder="This field is required." />
+                    <input type="text" name="zip" id="zip" size="5" required="required" placeholder="This field is required." />
                 </div>
 
                 <input type="submit" value="Sign me up"/>

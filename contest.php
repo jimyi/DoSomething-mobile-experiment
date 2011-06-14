@@ -43,7 +43,7 @@
 				<input type="text" name="refer_email5" id="refer_email5" value="" placeholder="Friend's Email" />
 			</div>
 
-            <input type="submit" value="Sign me up"/>
+            <input type="submit" value="Enter Contest"/>
         </form>
 
 		</div><!-- /content -->
