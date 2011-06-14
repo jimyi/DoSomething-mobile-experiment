@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<div data-role="page" class="page_content">
+	<div data-role="page" class="page_content" data-theme="c">
 		<div data-role="header" data-nobackbtn="true">
 			<h1><span class="ds">DoSomething.org</span> Staples for Students</h1>
 		</div><!-- /header -->
@@ -15,7 +15,7 @@
 			<div class="section">
 				<div class="half">
 					<p>At vero eos et accusamus et iusto odio dignis ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
-					<a href="sign_up.php" data-role="button" data-icon="plus" data-theme="a">SIGN UP!</a>
+					<a href="sign_up.php" data-role="button" data-icon="plus">SIGN UP!</a>
 				</div>
 				<div class="image_wrapper half">
 					<img src="http://www.dosomething.org/sites/all/micro/sfs/logo-sfs.png" />
@@ -37,6 +37,13 @@
 				<h4>Corporis Suscipit</h4>
 				<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Ut enim ad minima veniam, quis nostro xercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi conseqe.</p>
 			</div>
+			<div class="section" id="foursquare">
+				<img src="http://www.dosomething.org/sites/all/micro/sfs/foursquare.png" />
+				<div class="header">
+					<a href="https://foursquare.com/search?q=staples"><span>Check in to a Staples store near by!</span></a>
+				</div>
+			</div>
+
 		</div><!-- /content -->
 		<?php require_once('modules/footer.php') ?>
 	</div><!-- /page -->

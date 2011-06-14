@@ -1,16 +1,24 @@
 
+/*** DS THEME ***/
 
 .ui-mobile body {
 
+}
+
+.ui-bar-d,
+.ui-bar-c {
+  text-shadow: 0 -1px 1px #000;
+  color: #fff;
 }
 
 .ui-body-c {
   text-shadow: none;
 }
 
-.ui-bar-a,
-.ui-header {
-  background-color: #007380;
+.ui-bar-c,
+.ui-bar-d,
+.ui-header,
+.ui-btn-up-c {
   background-image: -webkit-gradient(
       linear,
       left bottom,
@@ -23,7 +31,166 @@
       rgb(0,115,128) 23%,
       rgb(0,172,191) 62%
   );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='rgb(0,115,128)', EndColorStr='rgb(0,172,191)')";
 }
+
+.ui-btn-up-c {
+	border: 1px solid #999;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+}
+
+.ui-btn-up-c a.ui-link-inherit {
+	color: #2F3E46;
+}
+
+.ui-btn-hover-c {
+	border: 1px solid #999;
+	background: #00ABC0;
+	font-weight: bold;
+	color: 					#101010;
+	text-shadow: 0 1px 1px 	#fff;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.23, #00ABC0),
+      color-stop(0.62, #00D0E8)
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      #00ABC0 23%,
+      #00D0E8 62%
+  );
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ededed', EndColorStr='#dadada')";
+}
+
+.ui-btn-hover-c a.ui-link-inherit {
+	color: #333;
+}
+
+.ui-btn-down-c {
+	border: 1px solid #808080;
+	background: #fdfdfd;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 0 1px 1px 	#111111;
+	background-image: -moz-linear-gradient(top,
+      #eeeeee,
+      #fdfdfd);
+	background-image: -webkit-gradient(linear,left top,left bottom,
+      color-stop(0, #eeeeee),
+      color-stop(1, #fdfdfd));
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#fdfdfd')";
+
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.23, rgb(0,172,191)),
+      color-stop(0.62, rgb(0,115,128))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(0,172,191) 23%,
+      rgb(0,115,128) 62%
+  );
+}
+
+.ui-btn-down-c a.ui-link-inherit {
+	color: #2F3E46;
+}
+
+/*** BUTTON-D ***/
+
+.ui-btn-up-d {
+  background-color: #f5b232;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.23, #F8C037),
+      color-stop(0.62, #FCDD81)
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      #F8C037 23%,
+      #FCDD81 62%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F8C037', EndColorStr='#FCDD81')";
+
+	border: 1px solid #999;
+	font-weight: bold;
+	color: #000;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.ui-btn-up-d a.ui-link-inherit {
+	color: #2F3E46;
+}
+
+.ui-btn-hover-d {
+	border: 1px solid #999;
+	background: #00ABC0;
+	font-weight: bold;
+	color: 					#101010;
+	text-shadow: 0 1px 1px 	#fff;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.23, #FFC536),
+      color-stop(0.62, #FCF3B9)
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      #FFC536 23%,
+      #FCF3B9 62%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFC536', EndColorStr='#FCF3B9')";
+}
+
+.ui-btn-hover-d a.ui-link-inherit {
+	color: #333;
+}
+
+.ui-btn-down-d {
+	border: 1px solid #808080;
+	background-color: #fdfdfd;
+	font-weight: bold;
+	color: #111111;
+	text-shadow: 0 1px 1px 	#ffffff;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.23, #FCF3B9),
+      color-stop(0.62, #FFC536)
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      #FCF3B9 23%,
+      #FFC536 62%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FCF3B9', EndColorStr='#FFC536')";
+}
+
+.ui-btn-down-d a.ui-link-inherit {
+	color: #2F3E46;
+}
+
+.ui-btn-up-d,
+.ui-btn-hover-d,
+.ui-btn-down-d,
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/*** GENERAL STYLES ***/
 
 div.page_content {
   background-color: #f5b232;
@@ -38,6 +205,17 @@ div.page_content {
 
 div.section {
   overflow: auto;
+}
+
+div.section div.header {
+  font-size: 22px;
+}
+
+.ui-body-c .ui-link,
+div.section div.header a,
+div.section div.header a span{
+  text-decoration: none;
+  color: #333;
 }
 
 div.section .half {

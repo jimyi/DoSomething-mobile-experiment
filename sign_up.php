@@ -40,6 +40,5 @@
 
         <?php require_once('modules/footer.php') ?>
     </div><!-- /page -->
-
 </body>
 </html>
